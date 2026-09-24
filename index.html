@@ -2,202 +2,292 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SkylarHub — Política de Privacidad / Privacy Policy</title>
-<style>
-  :root {
-    --texto: #1f2430;
-    --texto-secundario: #5a6072;
-    --fondo: #ffffff;
-    --superficie: #f6f7fa;
-    --borde: #e3e5eb;
-    --acento: #146C94;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--fondo);
-    color: var(--texto);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.65;
-  }
-  .contenedor {
-    max-width: 760px;
-    margin: 0 auto;
-    padding: 40px 20px 80px;
-  }
-  header {
-    margin-bottom: 32px;
-  }
-  h1 {
-    font-size: 26px;
-    margin: 0 0 6px;
-  }
-  .subtitulo {
-    color: var(--texto-secundario);
-    font-size: 14px;
-  }
-  .idioma-nav {
-    display: flex;
-    gap: 10px;
-    margin: 18px 0 0;
-  }
-  .idioma-nav a {
-    font-size: 13px;
-    text-decoration: none;
-    color: var(--acento);
-    border: 1px solid var(--borde);
-    padding: 6px 12px;
-    border-radius: 20px;
-  }
-  h2 {
-    font-size: 19px;
-    margin: 34px 0 10px;
-    padding-top: 10px;
-    border-top: 1px solid var(--borde);
-  }
-  section h2:first-of-type { border-top: none; padding-top: 0; }
-  p, li { font-size: 15.5px; color: var(--texto); }
-  ul { padding-left: 22px; }
-  .resumen {
-    background: var(--superficie);
-    border: 1px solid var(--borde);
-    border-radius: 12px;
-    padding: 18px 20px;
-    font-size: 15.5px;
-  }
-  .tabla-permisos {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 10px 0 4px;
-    font-size: 14.5px;
-  }
-  .tabla-permisos th, .tabla-permisos td {
-    text-align: left;
-    padding: 9px 10px;
-    border-bottom: 1px solid var(--borde);
-    vertical-align: top;
-  }
-  .tabla-permisos th {
-    color: var(--texto-secundario);
-    font-weight: 600;
-    font-size: 13px;
-  }
-  footer {
-    margin-top: 50px;
-    padding-top: 20px;
-    border-top: 1px solid var(--borde);
-    font-size: 13px;
-    color: var(--texto-secundario);
-  }
-  a { color: var(--acento); }
-  #en { display: none; }
-</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SkylarHub — Estudio, hábitos, tareas y agenda en una sola app</title>
+<meta name="description" content="SkylarHub reúne mapas mentales, documentos, flashcards, hábitos, tareas, agenda y Pomodoro en una app minimalista, sin cuenta y con tus datos solo en tu dispositivo.">
+<link rel="canonical" href="https://skylarmsd.com/">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="SkylarHub — Todo tu estudio en un solo lugar">
+<meta property="og:description" content="Mapas mentales, documentos, flashcards, hábitos, tareas, agenda y Pomodoro. Sin cuenta, sin anuncios, sin rastreo.">
+<meta property="og:url" content="https://skylarmsd.com/">
+<meta property="og:image" content="https://skylarmsd.com/assets/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"MobileApplication","name":"SkylarHub","operatingSystem":"Android","applicationCategory":"EducationalApplication","url":"https://skylarmsd.com/","downloadUrl":"https://play.google.com/store/apps/details?id=com.skylarmsd.mapasmentalesmed","sameAs":["https://www.instagram.com/skylarmsd/","https://www.facebook.com/profile.php?id=61578050750793"]}</script>
 </head>
 <body>
-<div class="contenedor">
 
-  <header>
-    <h1>SkylarHub — Política de Privacidad</h1>
-    <div class="subtitulo">Última actualización: 23 de septiembre de 2026 · Aplicación: SkylarHub (com.skylarmsd.mapasmentalesmed)</div>
-    <div class="idioma-nav">
-      <a href="#" onclick="document.getElementById('es').style.display='block';document.getElementById('en').style.display='none';return false;">Español</a>
-      <a href="#" onclick="document.getElementById('es').style.display='none';document.getElementById('en').style.display='block';return false;">English</a>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="/"><img class="logo-img" src="assets/logo.png" alt="" width="38" height="38"><span>SkylarHub</span></a>
+    <nav aria-label="Principal">
+      <ul>
+        <li><a href="#funciones">Funciones</a></li>
+        <li><a href="/privacidad">Privacidad</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a class="navcta" href="https://play.google.com/store/apps/details?id=com.skylarmsd.mapasmentalesmed" target="_blank" rel="noopener">Descargar</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Ya disponible en Google Play</span>
+      <h1>Todo tu estudio, en un solo lugar</h1>
+      <p class="lead">Mapas mentales, documentos, flashcards, hábitos, tareas, agenda y Pomodoro en una app minimalista, pensada para reducir la sobrecarga y ayudarte a mantener el foco.</p>
+      <div class="cta">
+        <a class="btn" href="https://play.google.com/store/apps/details?id=com.skylarmsd.mapasmentalesmed" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3.5v17l15-8.5z"/></svg> Descargar en Google Play</a>
+        <a class="btn ghost" href="#funciones">Conocer las funciones</a>
+      </div>
     </div>
-  </header>
+    <div class="phones" aria-hidden="true">
+      <img src="assets/screens/1_hub.jpg" alt="" width="540" height="960">
+      <img src="assets/screens/2_pantalla_dividida.jpg" alt="" width="540" height="960">
+      <img src="assets/screens/3_importar_ia.jpg" alt="" width="540" height="960">
+    </div>
+  </div>
+</section>
 
-  <section id="es">
+<!-- PILARES -->
+<section class="s" id="funciones">
+  <div class="wrap">
+    <p class="kicker">Funciones</p>
+    <h2>Cuatro herramientas, un solo lugar</h2>
+    <p class="sub">SkylarHub abre en un Hub sencillo con Estudio, Hábitos, Tareas y Agenda. Sin cuenta, sin menús escondidos y con modo claro y oscuro.</p>
 
-    <p class="resumen"><strong>En una frase:</strong> SkylarHub no tiene servidores propios ni recolecta tus datos personales — todo lo que creas (mapas mentales, documentos, flashcards, hábitos, tareas, agenda) se guarda únicamente en tu dispositivo.</p>
+    <div class="grid g4">
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21.5z"/><path d="M4 21.5V5.5M9 8h6"/></svg></div>
+        <h3>Estudio</h3>
+        <p>Carpetas y subcarpetas ilimitadas. Cada tema une mapa mental, documento y flashcards.</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 0 1 15.5-6.2L21 8"/><path d="M21 3v5h-5M21 12a9 9 0 0 1-15.5 6.2L3 16"/><path d="M3 21v-5h5"/></svg></div>
+        <h3>Hábitos</h3>
+        <p>Hábitos de sí/no o de cantidad, con racha, promedio y calendario mensual coloreado.</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l3 3 5-6"/></svg></div>
+        <h3>Tareas</h3>
+        <p>Mi día, Importante y Planeado, listas con color, subtareas y tareas recurrentes.</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></div>
+        <h3>Agenda</h3>
+        <p>Vistas de mes, semana, día y lista, con varios calendarios y tus fechas de examen.</p>
+      </article>
+    </div>
+  </div>
+</section>
 
-    <h2>1. Quién publica esta app</h2>
-    <p>SkylarHub es desarrollada de forma independiente. Contacto: <a href="mailto:skylarmsd@gmail.com">skylarmsd@gmail.com</a>.</p>
+<!-- ESTUDIO -->
+<section class="s soft">
+  <div class="wrap">
+    <p class="kicker">Estudio</p>
+    <h2>Cada tema, tres herramientas conectadas</h2>
+    <p class="sub">Un mapa mental para ver el panorama, un documento para el detalle y flashcards para memorizar. Se vinculan entre sí y puedes usarlas lado a lado.</p>
 
-    <h2>2. Qué datos maneja la app y dónde quedan</h2>
-    <p>SkylarHub no requiere crear una cuenta ni iniciar sesión. Todo el contenido que generas dentro de la app (temas de estudio con sus mapas mentales, documentos y flashcards; hábitos; tareas; agenda; calendarios; preferencias) se guarda exclusivamente en el almacenamiento local de tu dispositivo, usando el almacenamiento propio de la app (AsyncStorage) y su carpeta privada de archivos. Nada de este contenido se envía a ningún servidor nuestro, porque no tenemos ninguno.</p>
-    <p>La app hace, además, un respaldo periódico automático de esos datos:</p>
-    <ul>
-      <li>Siempre queda una copia dentro de la carpeta privada de la app (se pierde si se desinstala la app o se borran sus datos).</li>
-      <li>Si eliges una carpeta externa de tu propio dispositivo (por ejemplo, Descargas, o una carpeta que tú mismo sincronizas con un servicio como Google Drive), la app guarda ahí también una copia. Esa elección es tuya y se controla desde el propio teléfono — nosotros no accedemos a esa carpeta ni la vemos.</li>
-    </ul>
-    <p>La app también guarda, sólo en tu dispositivo, un registro técnico de errores (qué falló y en qué versión, sin tus datos personales ni el contenido de tus temas). Ese registro nunca se envía automáticamente a ningún lado: sólo se comparte si tú decides hacerlo a mano, por ejemplo por correo o WhatsApp, para pedir soporte.</p>
+    <div class="trio">
+      <div class="card"><span class="n">01</span><h3>Mapa mental</h3><p>Lienzo libre o de hoja fija, con reordenamiento automático sin cuadros encimados ni líneas cruzadas.</p></div>
+      <div class="card"><span class="n">02</span><h3>Documento</h3><p>Editor enriquecido con títulos, tablas, imágenes, índice automático y formato de página para imprimir.</p></div>
+      <div class="card"><span class="n">03</span><h3>Flashcards</h3><p>Repetición espaciada con cuatro botones, tarjetas clásicas, de huecos, de opción múltiple y oclusión de imagen.</p></div>
+    </div>
 
-    <h2>3. Permisos que pide la app y para qué</h2>
-    <table class="tabla-permisos">
-      <tr><th>Permiso</th><th>Para qué se usa</th></tr>
-      <tr><td>Micrófono</td><td>Sólo si usas la función de dictado por voz, para escribir hablando en un cuadro del mapa mental. El audio se procesa mediante el servicio de reconocimiento de voz de tu propio dispositivo (en Android, normalmente el de Google) — ver sección 4.</td></tr>
-      <tr><td>Almacenamiento (leer/escribir)</td><td>Para exportar e importar tus temas y respaldos como archivos, agregar imágenes a tus mapas/documentos/flashcards, y guardar copias de respaldo en la carpeta externa que elijas.</td></tr>
-      <tr><td>Notificaciones</td><td>Para recordatorios de tareas, eventos, hábitos y flashcards que tú mismo programas — se generan y se muestran localmente en tu teléfono, no vienen de ningún servidor nuestro.</td></tr>
-      <tr><td>Widgets de pantalla de inicio</td><td>Para mostrar y actualizar los widgets que coloques (hábitos, flashcards, tareas, agenda, pomodoro, etc.), leyendo los datos que ya están guardados localmente.</td></tr>
-      <tr><td>Vibración</td><td>Para el aviso háptico de notificaciones y temporizadores (Pomodoro).</td></tr>
-    </table>
+    <div class="grid g3">
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="8" height="16" rx="2"/><rect x="13" y="4" width="8" height="16" rx="2"/></svg></div>
+        <h3>Pantalla dividida</h3>
+        <p>Combina documento, mapa mental y flashcards, o abre la misma herramienta en ambos lados. Arrastra texto del documento y conviértelo en tarjeta.</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></svg></div>
+        <h3>Importar con IA</h3>
+        <p>Descarga instrucciones para cualquier IA, pega el resultado y obtén el mapa, el documento y los mazos ya armados.</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M4 20h16"/></svg></div>
+        <h3>Importa y comparte</h3>
+        <p>Importa mazos de Anki (.apkg), Quizlet, CSV y JSON. Exporta temas completos como .skylarhub, con imágenes incluidas.</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="6" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M8 7l3 9M16 7l-3 9"/></svg></div>
+        <h3>Vínculos entre herramientas</h3>
+        <p>Un cuadro del mapa salta a su sección del documento y viceversa. Vuelve al último cuadro editado con «¿Dónde estaba?».</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div>
+        <h3>Estadísticas por mazo</h3>
+        <p>Racha, dominio y días de estudio por grupo. Modo examen con opción múltiple autogenerada, sin afectar tu repaso.</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"/></svg></div>
+        <h3>Exporta a tu manera</h3>
+        <p>Imagen o PDF, mapa interactivo en HTML, esquema en texto y respaldo completo del mapa con todas sus páginas.</p>
+      </article>
+    </div>
+  </div>
+</section>
 
-    <h2>4. Terceros</h2>
-    <p>SkylarHub no usa publicidad, ni analítica, ni rastreo de comportamiento, ni ningún SDK de terceros que recolecte datos con fines comerciales.</p>
-    <p>La única excepción es la función opcional de <strong>dictado por voz</strong>: cuando la usas, el audio se procesa a través del servicio de reconocimiento de voz que ya tiene instalado tu dispositivo Android (habitualmente el de Google). Ese procesamiento está sujeto a la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidad de Google</a>, no a la nuestra — nosotros no vemos ni guardamos ese audio en ningún servidor propio.</p>
+<!-- TDAH -->
+<section class="s">
+  <div class="wrap split">
+    <div>
+      <p class="kicker">Pensada para el foco</p>
+      <h2>Una novedosa técnica de lectura</h2>
+      <p class="sub" style="margin-bottom:0">Diseñada para que las personas con TDAH mantengan la atención en la lectura durante más tiempo. Muestra, oculta o convierte el subrayado en negrita.</p>
+      <ul class="checks">
+        <li>Modo Lectura, Modo Enfoque y Modo Foco para reducir el ruido visual.</li>
+        <li>Color de texto y resaltado independientes, con atajos de un toque.</li>
+        <li>Sin cuentas, sin anuncios y sin notificaciones invasivas.</li>
+        <li>Mensajes de ánimo contextuales, discretos y sin presión.</li>
+      </ul>
+    </div>
+    <img src="assets/screens/8_lectura_tdah.jpg" alt="Documento con la barra de subrayado de SkylarHub" width="540" height="960" loading="lazy">
+  </div>
+</section>
 
-    <h2>5. Menores de edad</h2>
-    <p>Como SkylarHub no recolecta ni transmite datos personales de ningún usuario, tampoco recolecta datos de menores de edad.</p>
+<!-- TIEMPO -->
+<section class="s soft">
+  <div class="wrap">
+    <p class="kicker">Tu rutina</p>
+    <h2>Enfócate y mantén el ritmo</h2>
+    <p class="sub">Organiza tus días y estudia por bloques, sin salir de la app y sin abrirla siquiera cuando usas los widgets.</p>
 
-    <h2>6. Tu control sobre tus datos</h2>
-    <p>Como todo vive en tu dispositivo, tienes el control total: puedes exportar, eliminar o modificar cualquier tema, hábito, tarea o evento desde la propia app en cualquier momento. Desinstalar la app borra los datos guardados en su carpeta privada (salvo los respaldos que hayas puesto en una carpeta externa, que quedan donde los dejaste).</p>
+    <div class="grid g3">
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M9 3h6"/></svg></div>
+        <h3>Pomodoro</h3>
+        <p>Clásico 25/5, enfoque profundo 50/10, sesión corta o personalizado. Pausa, suma minutos o cambia de preset en vivo, desde cualquier herramienta.</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="8" height="8" rx="2"/><rect x="13" y="3" width="8" height="8" rx="2"/><rect x="3" y="13" width="8" height="8" rx="2"/><rect x="13" y="13" width="8" height="8" rx="2"/></svg></div>
+        <h3>Widgets</h3>
+        <p>Repaso pendiente, flashcard del día, racha, hábitos, tareas, calendario y Pomodoro. Redimensionables y con transparencia ajustable.</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 8 3 8H3s3-1 3-8M10 20a2 2 0 0 0 4 0"/></svg></div>
+        <h3>Recordatorios</h3>
+        <p>Avisos configurables para tareas, eventos, hábitos y flashcards. Se generan en tu teléfono, no en un servidor.</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 4v16h16"/><path d="M8 15l4-4 3 3 5-6"/></svg></div>
+        <h3>Progreso de hábitos</h3>
+        <p>Historial de tres meses, racha actual, días cumplidos y mini metas sin fecha límite ni presión.</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 0 1 14-5.3M20 12a8 8 0 0 1-14 5.3M18 3v4h-4M6 21v-4h4"/></svg></div>
+        <h3>Tareas recurrentes</h3>
+        <p>Diarias, cada N días, semanales o mensuales, con edición de «solo esta» o «esta y las siguientes».</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1"/><circle cx="12" cy="12" r="3"/></svg></div>
+        <h3>Modo claro y oscuro</h3>
+        <p>Una paleta cuidada para cada modo y una interfaz que escala en tablets.</p>
+      </article>
+    </div>
+  </div>
+</section>
 
-    <h2>7. Cambios a esta política</h2>
-    <p>Si esta política cambia, se actualizará esta misma página con una nueva fecha de "última actualización" arriba.</p>
+<!-- GALERÍA -->
+<section class="s" style="padding-bottom:40px">
+  <div class="wrap">
+    <p class="kicker">Capturas</p>
+    <h2>Así se ve</h2>
+  </div>
+  <div class="gallery" role="list" aria-label="Capturas de SkylarHub">
+    <img role="listitem" src="assets/screens/1_hub.jpg" alt="Hub principal de SkylarHub" width="540" height="960" loading="lazy">
+    <img role="listitem" src="assets/screens/2_pantalla_dividida.jpg" alt="Pantalla dividida con documento y mapa mental" width="540" height="960" loading="lazy">
+    <img role="listitem" src="assets/screens/3_importar_ia.jpg" alt="Importar un tema generado con IA" width="540" height="960" loading="lazy">
+    <img role="listitem" src="assets/screens/4_mapa_mental.jpg" alt="Mapa mental reordenado automáticamente" width="540" height="960" loading="lazy">
+    <img role="listitem" src="assets/screens/5_flashcards.jpg" alt="Mazos de flashcards y estadísticas" width="540" height="960" loading="lazy">
+    <img role="listitem" src="assets/screens/6_agenda.jpg" alt="Agenda mensual y tareas" width="540" height="960" loading="lazy">
+    <img role="listitem" src="assets/screens/7_pomodoro.jpg" alt="Temporizador Pomodoro" width="540" height="960" loading="lazy">
+    <img role="listitem" src="assets/screens/8_lectura_tdah.jpg" alt="Documento con subrayado configurable" width="540" height="960" loading="lazy">
+  </div>
+</section>
 
-    <h2>8. Contacto</h2>
-    <p>Cualquier duda sobre esta política o sobre la app: <a href="mailto:skylarmsd@gmail.com">skylarmsd@gmail.com</a>.</p>
+<!-- DESCARGA -->
+<section class="s" style="padding:0 0 40px">
+  <div class="wrap">
+    <div class="pv" style="background:var(--bg-soft);color:var(--ink);border:1px solid var(--line)">
+      <div>
+        <h2 style="color:var(--navy)">Pruébala hoy</h2>
+        <p style="opacity:1;color:var(--ink-2)">SkylarHub está en Google Play. Descárgala y ordena tu estudio, tus hábitos y tu agenda en un solo lugar.</p>
+      </div>
+      <a class="btn" style="background:var(--dark);color:var(--on-dark)" href="https://play.google.com/store/apps/details?id=com.skylarmsd.mapasmentalesmed" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3.5v17l15-8.5z"/></svg> Descargar en Google Play</a>
+    </div>
+  </div>
+</section>
 
-  </section>
+<!-- PRIVACIDAD -->
+<section class="s" style="padding-top:40px">
+  <div class="wrap">
+    <div class="pv">
+      <div>
+        <p class="kicker" style="color:inherit;opacity:.6">Privacidad</p>
+        <h2>Tus datos se quedan en tu dispositivo</h2>
+        <p>SkylarHub no tiene servidores propios, no pide cuenta y no usa anuncios ni analítica. Lee la política completa, en español e inglés.</p>
+      </div>
+      <a class="btn" href="/privacidad">Política de privacidad</a>
+    </div>
+  </div>
+</section>
 
-  <section id="en">
+<!-- CONTACTO -->
+<section class="s soft contact" id="contacto">
+  <div class="wrap">
+    <p class="kicker">Contacto</p>
+    <h2>Hablemos</h2>
+    <p class="sub">Escríbenos al correo que mejor corresponda. Respondemos lo antes posible.</p>
+    <div class="grid g3">
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.4-1 .9-1 1.7M12 17h.01"/></svg></div>
+        <h3>Soporte</h3>
+        <p>Dudas, problemas con la app y sugerencias. Si el registro de errores te lo pide, adjúntalo.</p>
+        <a class="mail" href="mailto:soporte@skylarmsd.com">soporte@skylarmsd.com</a>
+      </article>
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M8 12l3 3 5-6M3 12a9 9 0 1 0 18 0 9 9 0 0 0-18 0"/></svg></div>
+        <h3>Colaboraciones</h3>
+        <p>Propuestas de colaboración, promociones, prensa y alianzas.</p>
+        <a class="mail" href="mailto:contacto@skylarmsd.com">contacto@skylarmsd.com</a>
+      </article>
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11.5V16c0 1.5 3 3 6 3s6-1.5 6-3v-4.5"/></svg></div>
+        <h3>Becas y escuelas</h3>
+        <p>Cuando lleguen las funciones premium, escríbenos para solicitar una beca o un convenio para tu escuela o institución.</p>
+        <a class="mail" href="mailto:becas@skylarmsd.com">becas@skylarmsd.com</a>
+      </article>
+    </div>
+    <p class="note">Síguenos: <a href="https://www.instagram.com/skylarmsd/" target="_blank" rel="noopener">Instagram @skylarmsd</a> · <a href="https://www.facebook.com/profile.php?id=61578050750793" target="_blank" rel="noopener">Facebook</a></p>
+  </div>
+</section>
 
-    <p class="resumen"><strong>In one sentence:</strong> SkylarHub has no servers of its own and does not collect your personal data — everything you create (mind maps, documents, flashcards, habits, tasks, calendar) is stored only on your device.</p>
+</main>
 
-    <h2>1. Who publishes this app</h2>
-    <p>SkylarHub is developed independently. Contact: <a href="mailto:skylarmsd@gmail.com">skylarmsd@gmail.com</a>.</p>
-
-    <h2>2. What data the app handles and where it lives</h2>
-    <p>SkylarHub does not require creating an account or signing in. All the content you create inside the app (study topics with their mind maps, documents and flashcards; habits; tasks; calendar/agenda; preferences) is stored exclusively in your device's local storage, using the app's own storage (AsyncStorage) and its private file folder. None of this content is sent to any server of ours, because we don't have one.</p>
-    <p>The app also makes a periodic automatic backup of that data:</p>
-    <ul>
-      <li>A copy always stays inside the app's private folder (lost if you uninstall the app or clear its data).</li>
-      <li>If you choose an external folder on your own device (for example Downloads, or a folder you yourself sync with a service like Google Drive), the app also saves a copy there. That choice is yours and is controlled from your own phone — we do not access or see that folder.</li>
-    </ul>
-    <p>The app also keeps, only on your device, a technical error log (what failed and in which app version, without your personal data or your topics' content). That log is never sent anywhere automatically: it is only shared if you choose to do so manually, e.g. by email or messaging app, to request support.</p>
-
-    <h2>3. Permissions the app requests and why</h2>
-    <table class="tabla-permisos">
-      <tr><th>Permission</th><th>What it's used for</th></tr>
-      <tr><td>Microphone</td><td>Only if you use the voice dictation feature, to write into a mind-map box by speaking. The audio is processed through your own device's speech-recognition service (on Android, typically Google's) — see section 4.</td></tr>
-      <tr><td>Storage (read/write)</td><td>To export and import your topics and backups as files, add images to your maps/documents/flashcards, and save backup copies to the external folder you choose.</td></tr>
-      <tr><td>Notifications</td><td>For reminders about tasks, events, habits and flashcards that you schedule yourself — they are generated and shown locally on your phone, not sent from any server of ours.</td></tr>
-      <tr><td>Home-screen widgets</td><td>To display and update the widgets you place (habits, flashcards, tasks, agenda, pomodoro, etc.), reading the data already stored locally.</td></tr>
-      <tr><td>Vibration</td><td>For haptic feedback on notifications and timers (Pomodoro).</td></tr>
-    </table>
-
-    <h2>4. Third parties</h2>
-    <p>SkylarHub does not use advertising, analytics, behavioral tracking, or any third-party SDK that collects data for commercial purposes.</p>
-    <p>The only exception is the optional <strong>voice dictation</strong> feature: when you use it, the audio is processed through the speech-recognition service already installed on your Android device (typically Google's). That processing is subject to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>, not ours — we never see or store that audio on any server of our own.</p>
-
-    <h2>5. Children's privacy</h2>
-    <p>Since SkylarHub does not collect or transmit personal data from any user, it does not collect data from children either.</p>
-
-    <h2>6. Your control over your data</h2>
-    <p>Since everything lives on your device, you have full control: you can export, delete or edit any topic, habit, task or event from within the app at any time. Uninstalling the app removes the data stored in its private folder (except for backups you placed yourself in an external folder, which stay where you left them).</p>
-
-    <h2>7. Changes to this policy</h2>
-    <p>If this policy changes, this same page will be updated with a new "last updated" date at the top.</p>
-
-    <h2>8. Contact</h2>
-    <p>Any questions about this policy or the app: <a href="mailto:skylarmsd@gmail.com">skylarmsd@gmail.com</a>.</p>
-
-  </section>
-
-  <footer>
-    SkylarHub · Política de Privacidad / Privacy Policy
-  </footer>
-
-</div>
+<footer>
+  <div class="wrap">
+    <span>© <span id="y">2026</span> SkylarHub · skylarmsd.com</span>
+    <nav aria-label="Pie de página">
+      <a href="#funciones">Funciones</a>
+      <a href="/privacidad">Privacidad</a>
+      <a href="#contacto">Contacto</a>
+      <a href="https://play.google.com/store/apps/details?id=com.skylarmsd.mapasmentalesmed" target="_blank" rel="noopener">Google Play</a>
+      <a href="https://www.instagram.com/skylarmsd/" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+      <a href="https://www.facebook.com/profile.php?id=61578050750793" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>
+    </nav>
+  </div>
+</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </body>
 </html>
