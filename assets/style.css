@@ -106,6 +106,14 @@ h2 em{font-style:italic;font-weight:400}
 /* Capturas de ventana/modal (angostas) usadas solas en una fila ancha: sin esto se estiran al ancho completo de la
    fila y quedan gigantes y deformadas — se las limita a un ancho razonable, como las capturas de "pair". */
 .wide.narrow-fig{max-width:380px}
+/* Capturas de tablet (anchas, mucho detalle) usadas solas o en el hero: sin tope se estiran al ancho completo de la
+   columna y se sienten gigantes — se las limita y centra para que se lean como apoyo visual, no como protagonistas. */
+.wide .shot,.hero-fig .shot{max-width:760px;margin-left:auto;margin-right:auto}
+@media(max-width:860px){
+  /* En mobile, además de achicarse, se les deja aire a los costados en vez de ir de borde a borde — eso es lo que
+     hace sentir "todo imagen" al scrollear: sin aire, cada captura pesa como si fuera el contenido principal. */
+  .wide .shot,.hero-fig .shot,.pair.pair-wide .shot:not(.phone){max-width:86%}
+}
 
 .pull{font-family:var(--serif);font-weight:400;font-size:clamp(24px,3.2vw,38px);line-height:1.28;letter-spacing:-.02em;margin:0 0 28px;max-width:22em}
 .pull em{font-style:italic}
